@@ -2,10 +2,10 @@ const jsonData = {
   questiontypes: [
     {
       id: 1,
-      title: "בלה ברירה",
+      title: "חד ברירה",
       description:
         "שאלה עם מספר אפשרויות מענה כאשר רק תשובה אחת היא נכונה. ככל שיש יותר אפשרויות מענה, כך הסיכוי להצליח על ידי ניחוש פוחת.",
-      qBg: '.images/OneChoice.png',
+      qBg: './images/OneChoice.png',
       examplePic: ["./ .images/חד ברירה דוגמה1.png", "images/חד ברירה דוגמה2.png", "images/חד ברירה דוגמה3.png"],
       tags: "closedQ",
     },
@@ -14,7 +14,7 @@ const jsonData = {
       title: "רב ברירה",
       description:
         "שאלה עם מספר אפשרויות מענה כאשר יש יותר מתשובה אחת נכונה. לעיתים מציינים כמה תשובות נכונות קיימות, אך דבר זה מעלה את הסיכוי להצליח על ידי ניחוש.",
-      qBg: "images/רב ברירה.png",
+      qBg: "./images/רב ברירה.png",
       examplePic: ["images/רב ברירה דוגמה1.png", "images/רב ברירה דוגמה2.png", "images/רב ברירה דוגמה3.png"],
       tags: "closedQ",
     },
@@ -23,7 +23,7 @@ const jsonData = {
       title: "התאמה",
       description:
         "מספר אובייקטים שיש ליצור ביניהם התאמה של אחד לאחד. לעיתים מוסיפים אובייקטים שאין להם התאמה, כדי להקטין את הסיכוי להצליח על ידי ניחוש או אלימינציה.",
-      qBg: "images/התאמה.png",
+      qBg: "./ .images/התאמה.png",
       examplePic: ["images/התאמה דוגמה1.png", "images/התאמה דוגמה2.png","images/התאמה דוגמה3 - חדש.png" ],
       tags: "closedQ",
     },
