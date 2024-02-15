@@ -2,7 +2,7 @@ const jsonData = {
   questiontypes: [
     {
       id: 1,
-      title: "חד ברירה",
+      title: "בלה ברירה",
       description:
         "שאלה עם מספר אפשרויות מענה כאשר רק תשובה אחת היא נכונה. ככל שיש יותר אפשרויות מענה, כך הסיכוי להצליח על ידי ניחוש פוחת.",
       qBg: '.images/OneChoice.png',
