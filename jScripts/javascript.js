@@ -6,7 +6,7 @@ const jsonData = {
       description:
         "שאלה עם מספר אפשרויות מענה כאשר רק תשובה אחת היא נכונה. ככל שיש יותר אפשרויות מענה, כך הסיכוי להצליח על ידי ניחוש פוחת.",
       qBg: '.images/OneChoice.png',
-      examplePic: ["images/חד ברירה דוגמה1.png", "images/חד ברירה דוגמה2.png", "images/חד ברירה דוגמה3.png"],
+      examplePic: ["./ .images/חד ברירה דוגמה1.png", "images/חד ברירה דוגמה2.png", "images/חד ברירה דוגמה3.png"],
       tags: "closedQ",
     },
     {
