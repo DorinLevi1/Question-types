@@ -116,7 +116,7 @@ function createQbtns() {
     listItem.setAttribute("id", `qID_${q.id}`);
     listItem.setAttribute("class", "qCategory");
     //affecting the buttons appearance:
-    listItem.style.backgroundImage = `url("../${q.qBg}")`;
+    listItem.style.backgroundImage = `url("${q.qBg}")`;
     listItem.style.backgroundRepeat = "no-repeat";
     listItem.style.backgroundPosition = "center";
     listItem.style.backgroundSize = "cover";
